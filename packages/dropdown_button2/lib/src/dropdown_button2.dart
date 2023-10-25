@@ -735,8 +735,6 @@ class DropdownButton2State<T> extends State<DropdownButton2<T>>
             height: buttonHeight,
             width: _buttonStyle?.width,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 if (widget.isExpanded)
                   Expanded(child: innerItemsWidget)
